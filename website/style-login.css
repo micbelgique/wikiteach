@@ -1,0 +1,106 @@
+body{
+	background: linear-gradient(to left, #00AED0, #00D2B6);
+	background: -moz-linear-gradient(to left, #00AED0, #00D2B6);
+	background: -o-linear-gradient(to left, #00AED0, #00D2B6);
+	background: -webkit-linear-gradient(to left, #00AED0, #00D2B6);
+	font-family: "avenir";
+}
+
+#bloc-connect{
+	background: #fff;
+	border: 1px solid lightgray;
+	margin: auto;
+	display: block;
+	width: 300px;
+	margin-top: 100px;
+	padding: 10px;
+	padding-bottom: 20px;
+}
+
+#bloc-connect form input{
+	margin-top: 10px;
+	height: 38px;
+}	
+
+#bloc-register{
+	display: none;
+	background: #fff;
+	border: 1px solid lightgray;
+	margin: auto;
+	width: 300px;
+	margin-top: 100px;
+	padding: 10px;
+	padding-bottom: 20px;
+}
+
+#bloc-register form input, select{
+	margin-top: 10px;
+	height: 38px;
+}
+
+.text-align{
+	text-align: center;
+}
+
+.submit_connect{
+	border-radius: 50px;
+	background: #fff;
+	outline: 0;
+	width: 100%;
+}
+
+.blue{
+	border: 1px solid #00AED0;
+	color: #00AED0;
+}
+
+.blue:hover{
+	background: #00AED0;
+}
+
+.submit_connect:hover{
+	color: #fff;
+}
+
+.green{
+	border: 1px solid #00D2B6;
+	color: #00D2B6;
+}
+
+.green:hover{
+	background: #00D2B6;
+}
+
+.height_big{
+	height: 38px;
+}
+
+.logo{
+	width: 120px;
+	margin: auto;
+	display: block;
+	padding: 10px;
+}
+
+@media screen and (max-width: 710px){
+	#bloc-connect{
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 400px){
+	#bloc-connect{
+		margin-top: 30px;
+		width: 100%;
+	}
+	.height_big{
+		height: 42px;
+	}
+	#bloc-connect form input{
+		height: 42px;
+	}
+	#bloc-register{
+		margin-top: 30px;
+		width: 100%;
+	}
+}
